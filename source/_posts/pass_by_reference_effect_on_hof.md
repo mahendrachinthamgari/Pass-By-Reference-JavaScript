@@ -25,7 +25,7 @@ After function call: [1, 2, 6, 4]
 ```
 In the above example, we are trying to manipulate the `tempNumbers` inside the `manipulateNumbers` function, by passing the `originalNumbers` as an argument. Whatever the changes made to `tempNumbers` inside the `manipulateNumbers` function got reflected in `originalNumbers`. This happens because the function takes a reference of the array object.
 
-### **How Pass By Reference affects in higher order functions in JavaScript**
+### **How Pass By Reference effects in higher order functions in JavaScript**
 
 In higher-order functions, it takes the reference of the variable, so whatever changes are made inside the callback function of the higher-order function will reflect the original variable.
 
